@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>GET and POST</title>
+  <link rel="stylesheet" href="../../components/skeleton/css/normalize.css">
+  <link rel="stylesheet" href="../../components/skeleton/css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../../css/main.css" media="screen, projection, print">
+  <link rel="stylesheet" rev="stylesheet" href="block.css">
+  <script src="script.js" defer>
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <form class="four columns" action="" id="formGetXml">
+        <h6>Отправка запроса методом GET ответ в формате XML</h6>
+        <label for="textOne">Первая переменная</label>
+        <input class="u-full-width" type="text" id="textOne">
+        <label for="textTwo">Вторая переменная</label>
+        <input class="u-full-width" type="text" id="textTwo">
+        <input class="button-primary" type="button" id="getXmlSend" value="Отправить">
+      </form>
+      <form action="" class="four columns" id="formGetJson">
+        <h6>Отправка запроса методом GET ответ в формате Json</h6>
+        <label for="textOne">Первая переменная</label>
+        <input class="u-full-width" type="text" id="textOne">
+        <label for="textTwo">Вторая переменная</label>
+        <input class="u-full-width" type="text" id="textTwo">
+        <input class="button-primary" type="button" id="getJsonSend" value="Отправить">
+      </form>
+      <form action="" class="four columns" id="formPostJson">
+        <h6>Отправка запроса методом POST ответ в формате Json</h6>
+        <label for="textOne">Первая переменная</label>
+        <input class="u-full-width" type="text" id="textOne">
+        <label for="textTwo">Вторая переменная</label>
+        <input class="u-full-width" type="text" id="textTwo">
+        <input class="button-primary" type="button" id="postJson" value="Отправить">
+      </form>
+    </div>
+    <div class="row">
+      <div id="otvet"></div>
+      <a href="/">Назад</a>
+    </div>
+  </div>
+</body>
+
+</html>

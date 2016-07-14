@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Использование тега &lt;iframe&gt;</title>
+  <link rel="stylesheet" href="../../components/skeleton/css/normalize.css">
+  <link rel="stylesheet" href="../../components/skeleton/css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../../css/main.css" media="screen, projection, print">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <form action="ajax.php" method="GET" target="frame_ajax">
+        <h3>Отправка Ajax запроса с помощью скрытого iframe</h3>
+        <input class="u-full-width" type="text" name="text1" id="text1"><br>
+        <input class="button-primary" type="submit" value="Отправить"><br>
+      </form>
+    </div>
+    <div class="row">
+      <div id="otvet"></div>
+      <a href="/">Назад</a>
+    </div>
+  </div>
+
+
+  <iframe name="frame_ajax" src="ajax.php" width="0" height="0" style="display:none">
+  </iframe>
+</body>
+
+</html>

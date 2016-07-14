@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol id="ok-circle" viewBox="0 0 54.1 54.4">
+        <style>
+          .ast0,
+            .ast1{fill:none;stroke:#000;stroke-width:4;stroke-miterlimit:10}
+          .ast1{stroke-linecap:round;stroke-linejoin:round}
+        </style>
+        <circle id = "ast0" class="ast0" cx="27.1" cy="27.2" r="25"/>
+        <path id = "ast1" class="ast1" d="M16.5 30.2l8.7 7.8 12.5-21.5"/>
+    </symbol>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "name": "sasstemp",
+  "description": "StepIT",
+  "main": "index.js",
+  "authors": [
+    "Kuchma Yuriy"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton": "^2.0.4"
+  }
+}
